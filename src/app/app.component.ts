@@ -14,7 +14,7 @@ export class AppComponent {
 
   ngOnInit() {
     this.servicio.busqueda('angular').then((response) => {
-      alert("Total:" + response.total_count);
+      //alert("Total:" + response.total_count);
     }, (error) => {
       alert("Error: " + error.statusText)
     })
