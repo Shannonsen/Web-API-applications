@@ -9,6 +9,7 @@ import { Busqueda } from 'src/app/interfaces/busqueda';
   styleUrls: ['./busqueda.component.css']
 })
 export class BusquedaComponent {
+  title = 'angular-base01';
 
   resultado !: Busqueda;
 
