@@ -34,4 +34,9 @@ export class BusquedaService {
     })
     return promise;
   }
+
+}
+
+export function adicion(firstNumber: number, secondNumber: number){
+  return firstNumber + secondNumber;
 }
